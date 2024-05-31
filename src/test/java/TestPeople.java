@@ -43,14 +43,14 @@ public class TestPeople {
         Assertions.assertEquals(expected,people.findById(1));
     }
 
-    @Test
-    @DisplayName("Remove id")
-    public void removeIdTest(){
-        Person expected = new Person("Zay",1);
-        people.add(expected);
-
-        Assertions.assertEquals();
-    }
+//    @Test
+//    @DisplayName("Remove id")
+//    public void removeIdTest(){
+//        Person expected = new Person("Zay",1);
+//        people.add(expected);
+//
+//        Assertions.assertEquals();
+//    }
 
 
 }
